@@ -1,0 +1,414 @@
+Data Dictionary – UCI HAR Dataset
+
+ACTIVITY	18
+	Activity Type
+1.	WALKING
+2.	WALKING_UPSTAIRS
+3.	WALKING_DOWNSTAIRS
+4.	SITTING
+5.	STANDING
+6.	LAYING
+
+SUBJECT	2
+	Volunteer Subjects
+Uses  1..30 to represent each volunteer
+
+TIME_BODYACCELEROMETER-MEAN()-X	8
+	Time domain body accelerometer – mean X axial signal 	
+	(7 implied decimal places)	
+	0..9999999 (0.2215982)
+                           
+TIME_BODYACCELEROMETER-MEAN()-Y	10
+	Time domain body accelerometer – mean Y axial signal 	
+	(9 implied decimal places)	
+	-0..999999999 (-0.221598298)
+
+TIME_BODYACCELEROMETER-MEAN()-Z 	9
+	Time domain body accelerometer – mean Z axial signal 	
+	(8 implied decimal places)	
+	-0..99999999 (-0.11320355)
+                       
+TIME_GRAVITYACCELEROMETER-MEAN()-X  	8
+	Time domain gravity accelerometer – mean X axial signal 
+	(7 implied decimal places)	
+	-0..9999999 (-0.2488818)
+                        
+TIME_GRAVITYACCELEROMETER-MEAN()-Y   	10
+	Time domain gravity accelerometer – mean Y axial signal 
+	(9 implied decimal places)	
+	0..9999999 (0.705549773)
+                       
+TIME_GRAVITYACCELEROMETER-MEAN()-Z   	10
+	Time domain gravity accelerometer – mean Z axial signal 
+	(9 implied decimal places)	
+	0..9999999 (0.445817720)
+                       
+TIME_BODYACCELEROMETERJERK-MEAN()-X 	9
+	Time domain body accelerometer jerk – mean X axial signal 
+	(8 implied decimal places)	
+	0..9999999 (0.08108653)
+                        
+TIME_BODYACCELEROMETERJERK-MEAN()-Y 	11
+	Time domain body accelerometer jerk – mean Y axial signal 
+	(10 implied decimal places)	
+	0..9999999 (0.0092551404)
+                        
+TIME_BODYACCELEROMETERJERK-MEAN()-Z	11       
+	Time domain body accelerometer jerk – mean Z axial signal 
+	(10 implied decimal places)	
+	-0..9999999 (-7.451967e-05)
+                  
+TIME_BODYGYROSCOPE-MEAN()-X  	10
+	Time domain body gyroscope – mean X axial signal 
+	(9 implied decimal places)	
+	-0..9999999 (-0.016553094)
+	                              
+TIME_BODYGYROSCOPE-MEAN()-Y  	9
+	Time domain body gyroscope – mean Y axial signal 
+	(8 implied decimal places)	
+	-0..9999999 (-0.06448612)
+                               
+TIME_BODYGYROSCOPE-MEAN()-Z	9   
+	Time domain body gyroscope – mean Z axial signal 
+	(8 implied decimal places)	
+	-0..9999999 (0.14868944)
+                              
+TIME_BODYGYROSCOPEJERK-MEAN()-X	9
+	Time domain body gyroscope jerk – mean X axial signal 
+	(8 implied decimal places)	
+	-0..9999999 (-0.10727095)
+                             
+TIME_BODYGYROSCOPEJERK-MEAN()-Y	9  
+	Time domain body gyroscope jerk – mean Y axial signal 
+	(8 implied decimal places)	
+	-0..9999999 (-0.04151729)
+                           
+TIME_BODYGYROSCOPEJERK-MEAN()-Z 	9
+	Time domain body gyroscope jerk – mean Z axial signal 
+	(8 implied decimal places)	
+	-0..9999999 (-0.07405012)
+                            
+TIME_BODYACCELEROMETERMAG-MEAN()	9
+	Time domain body accelerometer magnitude – mean
+	(8 implied decimal places)	
+	-0..9999999 (-0.84192915)
+                            
+TIME_GRAVITYACCELEROMETERMAG-MEAN()	9 
+	Time domain gravity accelerometer magnitude – mean
+	(8 implied decimal places)	
+	-0..9999999 (-0.84192915)
+                        
+TIME_BODYACCELEROMETERJERKMAG-MEAN()	8     
+	Time domain body accelerometer jerk magnitude – mean
+	(7 implied decimal places)	
+	-0..9999999 (-0.9543962)
+                   
+TIME_BODYGYROSCOPEMAG-MEAN() 	10	
+	Time domain body gyroscope magnitude – mean
+	(9 implied decimal places)	
+	-0..9999999 (-0.874759548)
+                               
+TIME_BODYGYROSCOPEJERKMAG-MEAN()	8	   
+	Time domain body gyroscope jerk magnitude – mean
+	(7 implied decimal places)	
+	-0..9999999 (-0.9634610)
+                         
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEAN()-X	9	             
+	Fast fourier transform body accelerometer – mean X axial signal
+	(8 implied decimal places)
+	-0..9999999 (-0.93909905)
+
+
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEAN()-Y 	10 
+	Fast fourier transform body accelerometer – mean Y axial signal
+	(9 implied decimal places)
+	-0..9999999 (-0.867065205)
+           
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEAN()-Z	9    
+	Fast fourier transform body accelerometer – mean Z axial signal
+	(8 implied decimal places)
+	-0..9999999 (-0.88266688)
+         
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEANFREQ()-X 	9
+	Fast fourier transform body accelerometer – mean frequency x 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-1.587927e-01)
+        
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEANFREQ()-Y	11 
+	Fast fourier transform body accelerometer – mean frequency y 
+	axial signal (10 implied decimal places)
+	0..9999999 (0.0975348416)
+       
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-MEANFREQ()-Z	11   
+	Fast fourier transform body accelerometer – mean frequency z 
+	axial signal (10 implied decimal places)
+	0..9999999 (0.0894376552)
+      
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEAN()-X	8  
+	Fast fourier transform body accelerometer jerk – mean x axial 
+	signal (7 implied decimal places)
+	-0..9999999 (-0.9570739)
+       
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEAN()-Y 	9 
+	Fast fourier transform body accelerometer jerk – mean y axial 
+	signal (8 implied decimal places)
+	-0..9999999 (-0.92246261)
+       
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEAN()-Z	8     
+	Fast fourier transform body accelerometer jerk – mean z axial 
+	signal (7 implied decimal places)
+	-0..9999999 (-0.9480609)
+    
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEANFREQ()-X	9
+	Fast fourier transform body accelerometer jerk – mean frequency x 
+	axial signal (8 implied decimal places)
+	0..9999999 (0.13241909)
+    
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEANFREQ()-Y  	10
+	Fast fourier transform body accelerometer jerk – mean frequency y 
+	axial signal (9 implied decimal places)
+	-0..9999999 (2.451362e-02)
+   
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-MEANFREQ()-Z	10
+	Fast fourier transform body accelerometer jerk – mean frequency z 
+	axial signal (9 implied decimal places)
+	0..9999999 (0.024387945)
+     
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEAN()-X 		8 
+	Fast fourier transform body gyroscope – mean x axial signal 
+	(7 implied decimal places)
+	-0..9999999 (-0.8502492)
+             
+
+  
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEAN()-Y 	9
+	Fast fourier transform body gyroscope – mean y axial signal 
+	(8 implied decimal places)
+	-0..9999999 (-0.95219149)
+                
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEAN()-Z 	9
+	Fast fourier transform body gyroscope – mean z axial signal 
+	(8 implied decimal places)
+	-0..9999999 (-0.90930272)
+                
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEANFREQ()-X 	9  
+	Fast fourier transform body gyroscope – mean frequency x 
+	axial signal (9 implied decimal places)
+	-0..9999999 (-0.003546796)
+          
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEANFREQ()-Y  	9
+	Fast fourier transform body gyroscope – mean frequency y 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.09152913)
+           
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-MEANFREQ()-Z   	11 
+	Fast fourier transform body gyroscope – mean frequency z 
+	axial signal (10 implied decimal places)
+	0..9999999 (0.0104581257)
+         
+FASTFOURIERTRANSFORM_BODYACCELEROMETERMAG-MEAN() 	9  
+	Fast fourier transform body accelerometer magnitude – mean
+	(8 implied decimal places)
+	-0..9999999 (-0.86176765)
+         
+FASTFOURIERTRANSFORM_BODYACCELEROMETERMAG-MEANFREQ()	10 
+	Fast fourier transform body accelerometer magnitude – mean
+	Frequency (9 implied decimal places)
+	0..9999999 (0.086408563)
+       
+FASTFOURIERTRANSFORM_BODYBODYACCELEROMETERJERKMAG-MEAN()	9
+	Fast fourier transform body body accelerometer jerk magnitude – 
+	Mean (8 implied decimal places)
+	-0..9999999 (-0.93330036)
+  
+FASTFOURIERTRANSFORM_BODYBODYACCELEROMETERJERKMAG-MEANFREQ()	10
+	Fast fourier transform body body accelerometer jerk magnitude – 
+	Mean frequency (9 implied decimal places)
+	0..9999999 (0.266391154)
+
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEMAG-MEAN() 	9
+	Fast fourier transform body body gyroscope magnitude – mean
+	(8 implied decimal places)
+	-0..9999999 (-0.86219019)
+           
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEMAG-MEANFREQ()	11 
+	Fast fourier transform body body gyroscope magnitude – mean
+	Frequency (10 implied decimal places)
+	-0..9999999 (-0.1397750127)
+   
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEJERKMAG-MEAN()	8  
+	Fast fourier transform body body gyroscope jerk magnitude – mean
+	(7 implied decimal places)
+	-0..9999999 (-0.9423669)
+    
+
+
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEJERKMAG-MEANFREQ()  	11
+	Fast fourier transform body body gyroscope jerk magnitude – mean
+	Frequency (10 implied decimal places)
+	0..9999999 (0.1764859071)
+  
+TIME_BODYACCELEROMETER-STD()-X   	9               
+	Time domain body accelerometer – standard deviation X 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.92805647)
+
+TIME_BODYACCELEROMETER-STD()-Y 	9
+	Time domain body accelerometer – standard deviation Y 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.83682741)
+                            
+TIME_BODYACCELEROMETER-STD()-Z		9        
+	Time domain body accelerometer – standard deviation Z 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.82606140)
+                      
+TIME_GRAVITYACCELEROMETER-STD()-X 	8
+	Time domain gravity accelerometer – standard deviation X 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.8968300)
+                          
+TIME_GRAVITYACCELEROMETER-STD()-Y 	8
+	Time domain gravity accelerometer – standard deviation Y 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.9077200)
+                          
+TIME_GRAVITYACCELEROMETER-STD()-Z	8
+	Time domain gravity accelerometer – standard deviation Z 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.8523663)
+                          
+TIME_BODYACCELEROMETERJERK-STD()-X	9
+	Time domain body accelerometer jerk – standard deviation X 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.95848211)
+                          
+TIME_BODYACCELEROMETERJERK-STD()-Y 	10
+	Time domain body accelerometer jerk – standard deviation Y 
+	axial signal (9 implied decimal places)
+	-0..9999999 (-0.924149274)
+                         
+TIME_BODYACCELEROMETERJERK-STD()-Z	8   
+	Time domain body accelerometer jerk – standard deviation Z 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.9548551)
+                       
+TIME_BODYGYROSCOPE-STD()-X 	8   
+	Time domain body gyroscope – standard deviation X axial signal 
+	(7 implied decimal places)
+	-0..9999999 (-0.8735439)
+                              
+TIME_BODYGYROSCOPE-STD()-Y	9 
+	Time domain body gyroscope – standard deviation Y axial signal 
+	(8 implied decimal places)
+	-0..9999999 (-0.95109044)
+               
+
+                  
+TIME_BODYGYROSCOPE-STD()-Z 	9        
+	Time domain body gyroscope – standard deviation Z axial signal 
+	(8 implied decimal places)
+	-0..9999999 (-0.90828466)
+                    
+TIME_BODYGYROSCOPEJERK-STD()-X 	9
+	Time domain body gyroscope jerk – standard deviation X axial signal 	(8 implied decimal places)
+	-0..9999999 (-0.91860852)
+                             
+TIME_BODYGYROSCOPEJERK-STD()-Y 	8
+	Time domain body gyroscope jerk – standard deviation Y axial signal 	(7 implied decimal places)
+	-0..9999999 (-0.9679072)
+                             
+TIME_BODYGYROSCOPEJERK-STD()-Z 	8
+	Time domain body gyroscope jerk – standard deviation Z axial signal 	(7 implied decimal places)
+	-0..9999999 (-0.9577902)
+                             
+TIME_BODYACCELEROMETERMAG-STD() 	9 
+	Time domain body accelerometer magnitude - standard deviation
+	(8 implied decimal places)
+	-0..9999999 (-0.79514486)
+                           
+TIME_GRAVITYACCELEROMETERMAG-STD()	9 
+	Time domain gravity accelerometer magnitude – standard deviation 
+	(8 implied decimal places)
+	-0..9999999 (-0.79514486)
+                         
+TIME_BODYACCELEROMETERJERKMAG-STD() 	9
+	Time domain body accelerometer jerk magnitude – standard deviation 
+	(8 implied decimal places)
+	-0..9999999 (-0.92824563)
+                        
+TIME_BODYGYROSCOPEMAG-STD()	9 
+	Time domain body gyroscope MAGNITUDE – standard deviation 
+	(8 implied decimal places)
+	-0..9999999 (-0.81901017)
+                                
+TIME_BODYGYROSCOPEJERKMAG-STD() 	9                            
+	Time domain body gyroscope jerk magnitude – standard deviation 
+	(8 implied decimal places)
+	-0..9999999 (-0.93584098)
+
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-STD()-X 	9
+	Fast fourier transform body accelerometer – standard deviation –
+	X axial signal 	(8 implied decimal places)
+	-0..9999999 (-0.92443743)
+             
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-STD()-Y  	9
+	Fast fourier transform body accelerometer – standard deviation –
+	Y axial signal 	(8 implied decimal places)
+	-0..9999999 (-0.83362556)
+            
+FASTFOURIERTRANSFORM_BODYACCELEROMETER-STD()-Z	9
+	Fast fourier transform body accelerometer – standard deviation –
+	Z axial signal 	(8 implied decimal places)
+	-0..9999999 (-0.81289156)
+              
+
+
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-STD()-X  	9   
+	Fast fourier transform body accelerometer jerk – standard deviation 	X axial signal 	(8 implied decimal places)
+	-0..9999999 (-0.96416071)
+     
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-STD()-Y  	10  
+      	Fast fourier transform body accelerometer jerk – standard deviation 	Y axial signal 	(9 implied decimal places)
+	-0..9999999 (-0.932217870)
+
+FASTFOURIERTRANSFORM_BODYACCELEROMETERJERK-STD()-Z 	8 
+	Fast fourier transform body accelerometer jerk – standard deviation 	Z axial signal 	(7 implied decimal places)
+	-0..9999999 (-0.9605870)
+       
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-STD()-X 	9 
+	Fast fourier transform body gyroscope – standard deviation X 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.8822965)
+                
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-STD()-Y 	9 
+	Fast fourier transform body gyroscope – standard deviation Y 
+	axial signal (8 implied decimal places)
+	-0..9999999 (-0.95123205)
+               
+FASTFOURIERTRANSFORM_BODYGYROSCOPE-STD()-Z 	8
+	Fast fourier transform body gyroscope – standard deviation Z 
+	axial signal (7 implied decimal places)
+	-0..9999999 (-0.9165825)
+                 
+FASTFOURIERTRANSFORM_BODYACCELEROMETERMAG-STD()	8 
+	Fast fourier transform body accelerometer magnitude – 
+	standard deviation (7 implied decimal places)
+	-0..9999999 (-0.7983009)
+            
+FASTFOURIERTRANSFORM_BODYBODYACCELEROMETERJERKMAG-STD() 	9
+	Fast fourier transform body body accelerometer jerk magnitude – 
+	Standard deviation (8 implied decimal places)
+	-0..9999999 (-0.92180398)
+    
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEMAG-STD() 	8
+	Fast fourier transform body body gyroscope magnitude – standard
+	Deviation (7 implied decimal places)
+	-0..9999999 (-0.8243194)
+            
+FASTFOURIERTRANSFORM_BODYBODYGYROSCOPEJERKMAG-STD()	9
+	Fast fourier transform body body gyroscope jerk magnitude – 
+	Standard deviation (8 implied decimal places)
+	-0..9999999 (-0.93266067)
+
+
